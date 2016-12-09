@@ -1,0 +1,10 @@
+D:\MVC\Aktualni verze\_Misha\wpDataSource\obj\Release\wpDataSource.csprojResolveAssemblyReference.cache
+D:\MVC\Aktualni verze\_Misha\wpDataSource\bin\Release\wpDataSource.dll.config
+D:\MVC\Aktualni verze\_Misha\wpDataSource\bin\Release\wpDataSource.dll
+D:\MVC\Aktualni verze\_Misha\wpDataSource\bin\Release\wpDataSource.pdb
+D:\MVC\Aktualni verze\_Misha\wpDataSource\bin\Release\CloudCommon.dll
+D:\MVC\Aktualni verze\_Misha\wpDataSource\bin\Release\PortalInterface.dll
+D:\MVC\Aktualni verze\_Misha\wpDataSource\bin\Release\wpCommon.dll
+D:\MVC\Aktualni verze\_Misha\wpDataSource\bin\Release\wpCommon.pdb
+D:\MVC\Aktualni verze\_Misha\wpDataSource\obj\Release\wpDataSource.dll
+D:\MVC\Aktualni verze\_Misha\wpDataSource\obj\Release\wpDataSource.pdb

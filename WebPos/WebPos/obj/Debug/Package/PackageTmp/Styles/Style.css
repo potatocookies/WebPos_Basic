@@ -1,0 +1,252 @@
+﻿body {
+    align-items: center;
+    font-family: open_sans,'Arial CE',Arial,'Verdana CE',Verdana,sans-serif;
+    color: #333333;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 90%;
+    min-width: 950px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'VodafoneRg_b';
+    src: url('../fonts/Vodafone.Rg_b.ttf') format('truetype');
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0px;
+}
+
+input {
+    border: 2px solid #CCCCCC;
+    margin: 0px;
+    padding: 10px;
+    color: #767676;
+    font-family: Arial;
+    font-size: 14pt;
+    height: 48.36px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 13px 15px 12px 15px;
+    background-color: #9C2AA0;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    float: right;
+    border: 0px;
+}
+
+.number_input {
+    text-align: right;
+}
+
+select {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid #CCCCCC;
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: Arial;
+    color: #767676;
+    box-sizing: border-box;
+    height: 48.36px;
+    margin-bottom: 10px;
+}
+
+#header {
+    width: 100%;
+    background-color: #E60000;
+    color: white;
+    align-items: center;
+    margin-top: 37px;
+    min-height: 100px;
+}
+
+    #header div {
+        font-family:VodafoneRg_b;
+        font-size:25pt;
+        padding-left: 10px;
+        line-height: 100px;
+        display: table-cell;
+        float: left;
+    }
+
+
+#header img {
+        width: 40px;
+        height: 40px;
+        display: table-cell;
+        margin: 0px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    #header p {
+        float: right;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+
+#shop_div {
+    width: 30%;
+}
+
+    #shop_div div {
+        padding-left: 10px;
+    }
+
+    #shop_div .col1 {
+        padding-right: 10px;
+    }
+
+#customer_div div {
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    #customer_div div table {
+        margin: 0px 10px 0px 10px;
+    }
+
+        #customer_div div table td {
+            padding-right: 10px;
+        }
+
+.main_block {
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+}
+
+    .main_block div {
+        display: table-cell;
+        height: 100px;
+        box-sizing: border-box;
+    }
+
+        .main_block div header {
+            background-color: #333333;
+            color: white;
+            line-height: 50px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        .main_block div div {
+            background-color: #EBEBEB;
+            color: #333333;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            min-width: 10px;
+        }
+
+#articles {
+    margin-top: 10px;
+    background-color: #EBEBEB;
+}
+
+    #articles thead {
+        background-color: #333333;
+        color: white;
+        line-height: 50px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+        #articles thead td {
+            padding-left: 10px;
+        }
+
+    #articles tbody td {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    #articles .col1 {
+        width: 25%;
+    }
+
+    #articles .col2 {
+        padding-right: 10px;
+    }
+
+
+#totals_div {
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+}
+
+    #totals_div button {
+        margin-top: 0px;
+        float: left;
+    }
+
+    #totals_div header {
+        height: 100px;
+        background-color: #333333;
+        color: white;
+        line-height: 50px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+        #totals_div header table {
+            width: auto;
+            float: right;
+            height: 100%;
+            text-align: right;
+        }
+
+            #totals_div header table td {
+                padding-right: 10px;
+                line-height: 0px;
+            }
+
+    #totals_div div {
+        background-color: #EBEBEB;
+        color: #333333;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        min-width: 10px;
+    }
+
+        #totals_div div table {
+            display: table-cell;
+        }
+
+            #totals_div div table td {
+                padding-right: 10px;
+            }
+
+        #totals_div div p {
+            width: 150px;
+        }
+
+        #totals_div div select {
+            width: 250px;
+        }
+
+        #totals_div div input {
+            width: 200px;
+            text-align: right;
+        }

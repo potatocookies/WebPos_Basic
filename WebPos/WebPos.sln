@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPos", "WebPos\WebPos.csproj", "{E51AE2CA-6BAB-41C4-B787-7097BBF4B889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpCommon", "..\wpCommon\wpCommon.csproj", "{20C3B6B9-2235-445F-97D5-872201AB6117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpDataSource", "..\wpDataSource\wpDataSource.csproj", "{4BC4C52D-D18E-4838-BD2D-8B3DEF9FA34D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E51AE2CA-6BAB-41C4-B787-7097BBF4B889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51AE2CA-6BAB-41C4-B787-7097BBF4B889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51AE2CA-6BAB-41C4-B787-7097BBF4B889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51AE2CA-6BAB-41C4-B787-7097BBF4B889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C3B6B9-2235-445F-97D5-872201AB6117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C3B6B9-2235-445F-97D5-872201AB6117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C3B6B9-2235-445F-97D5-872201AB6117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C3B6B9-2235-445F-97D5-872201AB6117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC4C52D-D18E-4838-BD2D-8B3DEF9FA34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC4C52D-D18E-4838-BD2D-8B3DEF9FA34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC4C52D-D18E-4838-BD2D-8B3DEF9FA34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC4C52D-D18E-4838-BD2D-8B3DEF9FA34D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

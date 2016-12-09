@@ -1,0 +1,22 @@
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\bin\Debug\wpCommon.dll.config
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\bin\Debug\wpCommon.dll
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\bin\Debug\wpCommon.pdb
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\bin\Debug\CloudCommon.dll
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\bin\Debug\PortalInterface.dll
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\obj\Debug\wpCommon.csprojResolveAssemblyReference.cache
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\obj\Debug\wpCommon.dll
+C:\Users\Michaela\Desktop\sundev\_GIT\WEBPos\wpCommon\obj\Debug\wpCommon.pdb
+D:\MVC\Aktualni verze\_Misha\wpCommon\bin\Debug\wpCommon.dll.config
+D:\MVC\Aktualni verze\_Misha\wpCommon\bin\Debug\wpCommon.dll
+D:\MVC\Aktualni verze\_Misha\wpCommon\bin\Debug\wpCommon.pdb
+D:\MVC\Aktualni verze\_Misha\wpCommon\obj\Debug\wpCommon.dll
+D:\MVC\Aktualni verze\_Misha\wpCommon\obj\Debug\wpCommon.pdb
+D:\MVC\Aktualni verze\_Misha\wpCommon\obj\Debug\wpCommon.csprojResolveAssemblyReference.cache
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\bin\Debug\wpCommon.dll.config
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\bin\Debug\wpCommon.dll
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\bin\Debug\wpCommon.pdb
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\obj\Debug\wpCommon.csprojResolveAssemblyReference.cache
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\obj\Debug\wpCommon.dll
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\obj\Debug\wpCommon.pdb
