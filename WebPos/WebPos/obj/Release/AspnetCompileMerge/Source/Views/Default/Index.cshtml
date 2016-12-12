@@ -2,6 +2,7 @@
 @using Newtonsoft.Json
 @{
     Layout = null;
+    ViewBag.CurrentNumberFormat = new System.Globalization.CultureInfo("cs-CZ", false).NumberFormat;
 }
 
 <!DOCTYPE html>
@@ -9,7 +10,9 @@
 <html>
 <head>
     <link href="~/Styles/Style.css" rel="stylesheet" />
-    <script src="~/scripts/JavaScript.js"></script>
+    <script src="~/scripts/_Common.js"></script>
+    <script src="~/scripts/_Items.js"></script>
+    <script src="~/scripts/_Payments.js"></script>
     <title></title>
     <meta charset="utf-8" />
     <script type="text/javascript">
@@ -33,7 +36,7 @@
             <div id="shop_div">
                 <header>Prodejna</header>
                 <div>
-                    @Html.DropDownListFor(model => model.Store.Name, new SelectList(Model.shopList, "Number", "Text"), "", new {required="required", @onchange = "shop_onChange(this.value, data)" })
+                    @Html.DropDownListFor(model => model.Store.Name, new SelectList(Model.shopList, "Number", "Text"), "", new { required = "required", @onchange = "shop_onChange(this.value, data)" })
                     @Html.TextBoxFor(model => model.Store.Street, new { @disabled = "disabled" })
                     @Html.TextBoxFor(model => model.Store.City, new { @disabled = "disabled" })
                     @Html.TextBoxFor(model => model.Store.ZIP, new { @disabled = "disabled" })
@@ -110,7 +113,7 @@
                 <tr>
                     <td class="col1">@Html.DropDownListFor(model => model.Item1.GUID, new SelectList(Model.articleList, "UID", "VART"), "", new { @onchange = "article_onChange(this.value, 1, data)" })</td>
                     <td class="col1">@Html.TextBoxFor(model => model.Item1.Description, new { disabled = "disabled", onfocus = "input_onFocus(this)", @maxlength = "220" })</td>
-                    <td>@Html.TextBoxFor(model => model.Item1.Quantity, new { @class= "number_input", disabled = "disabled", oninput = "number_input(this)", onchange = "number_onchange(this)", onfocus = "input_onFocus(this)" })</td>
+                    <td>@Html.TextBoxFor(model => model.Item1.Quantity, new { @class = "number_input", disabled = "disabled", oninput = "number_input(this)", onchange = "number_onchange(this)", onfocus = "input_onFocus(this)" })</td>
                     <td>@Html.TextBoxFor(model => model.Item1.Price, new { @class = "number_input", disabled = "disabled", oninput = "number_input(this)", onchange = "number_onchange(this)", onfocus = "input_onFocus(this)" })</td>
                     <td>@Html.TextBoxFor(model => model.Item1.VAT, new { @class = "number_input", disabled = "disabled" })</td>
                     <td class="col2">@Html.TextBoxFor(model => model.Item1.Total, new { @class = "number_input", disabled = "disabled" })</td>
@@ -160,28 +163,34 @@
             <div>
                 <table id="payments_table">
                     <tbody>
-                        <tr>
-                            <td> @Html.DropDownListFor(model => model.Payments[0].Type, new SelectList(Model.paymentTypeList, "Type", "Description"), "", new { @onchange = "paymentType_onChange(this, data)" })</td>
-                            <td> @Html.TextBoxFor(model => model.Payments[0].Value, new { disabled = "disabled", onchange = "recalculateTotals()", onfocus = "input_onFocus(this)" })</td>
-                            <td> <button onclick="deletePayment_onClick(this); return false;"></button></td>
-                        </tr>
+                        @*<tr>
+                            <td> @Html.DropDownListFor(model => model.Payments[0].Type, new SelectList(Model.paymentTypeList, "Type", "Description"), "", new { @onchange = "paymentType_onChange(this, data)", @class = "type" })</td>
+                            <td> @Html.TextBoxFor(model => model.Payments[0].Value, new { disabled = "disabled", onchange = "recalculateTotals()", onfocus = "input_onFocus(this)", @class = "value" })</td>
+                            <td> @Html.TextBoxFor(model => model.Payments[0].Code, new { onfocus = "input_onFocus(this)", @style = "display:none;", @class = "code", @placeholder = "Kontrolní kód" }) </td>
+                            <td> <button id="Payments_0__Delete" class="delete" onclick="deletePayment_onClick(this); return false;"></button></td>
+                        </tr>*@
                     </tbody>
                     <tfoot>
-                        <tr><td><button onclick="addPayment_onClick(data); return false">Přidat platbu</button></td></tr>
+                        <tr>
+                            <td colspan="2">
+                                <button id="addPaymentButton" onclick="addPayment_onClick(data); return false">Přidat platbu</button>
+                                <button id="deletePaymentButton" onclick="deleteAllPayments_onClick(); return false">Zrušit platby</button>
+                            </td>
+                        </tr>
                     </tfoot>
                 </table>
                 <table>
                     <tr>
                         <td><p>Zaplaceno:</p></td>
-                        <td><input id="total_paid" disabled readonly /></td>
+                        <td><input id="total_paid" disabled readonly value="0.00"/></td>
                     </tr>
                     <tr>
                         <td><p>Zbývá zaplatit:</p></td>
-                        <td><input id="total_to_paid" disabled readonly /></td>
+                        <td><input id="total_to_paid" disabled readonly value="0.00"/></td>
                     </tr>
                     <tr>
                         <td><p>Vrátit:</p></td>
-                        <td><input id="total_to_return" disabled readonly /></td>
+                        <td><input id="total_to_return" disabled readonly value="0.00"/></td>
                     </tr>
                 </table>
             </div>

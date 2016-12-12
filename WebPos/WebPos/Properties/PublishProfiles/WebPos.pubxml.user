@@ -31,16 +31,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2016 09:56:12</publishTime>
     </File>
     <File Include="bin/App_Code.compiled">
-      <publishTime>12/09/2016 11:19:06</publishTime>
+      <publishTime>12/12/2016 21:21:39</publishTime>
     </File>
     <File Include="bin/App_Code.dll">
-      <publishTime>12/09/2016 11:19:06</publishTime>
+      <publishTime>12/12/2016 21:21:39</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>12/09/2016 11:19:06</publishTime>
+      <publishTime>12/12/2016 21:21:40</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>12/09/2016 11:19:06</publishTime>
+      <publishTime>12/12/2016 21:21:40</publishTime>
     </File>
     <File Include="bin/CloudCommon.dll">
       <publishTime>12/02/2016 10:01:03</publishTime>
@@ -67,7 +67,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2016 11:57:34</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>06/15/2015 03:06:24</publishTime>
+      <publishTime>06/15/2015 02:06:24</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Cors.dll">
       <publishTime>02/13/2015 13:16:32</publishTime>
@@ -97,40 +97,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/22/2016 11:58:00</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
-      <publishTime>06/18/2015 21:19:44</publishTime>
+      <publishTime>06/18/2015 20:19:44</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/System.Collections.Immutable.dll">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/System.Reflection.Metadata.dll">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
-      <publishTime>06/18/2015 21:19:46</publishTime>
+      <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
       <publishTime>08/19/2014 10:03:34</publishTime>
@@ -157,7 +157,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/WebPos.dll">
-      <publishTime>12/09/2016 11:18:59</publishTime>
+      <publishTime>12/12/2016 21:21:32</publishTime>
     </File>
     <File Include="bin/WebPos.pdb">
       <publishTime>12/02/2016 13:00:45</publishTime>
@@ -187,7 +187,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2016 10:28:52</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>12/09/2016 11:18:59</publishTime>
+      <publishTime>12/12/2016 21:21:34</publishTime>
     </File>
     <File Include="scripts/ai.0.22.9-build00167.js">
       <publishTime>11/25/2016 09:56:12</publishTime>
@@ -216,17 +216,26 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="scripts/jquery-3.1.1.slim.min.map">
       <publishTime>11/28/2016 10:25:26</publishTime>
     </File>
+    <File Include="scripts/_Common.js">
+      <publishTime>12/12/2016 20:58:22</publishTime>
+    </File>
+    <File Include="scripts/_Items.js">
+      <publishTime>12/12/2016 18:52:58</publishTime>
+    </File>
+    <File Include="scripts/_Payments.js">
+      <publishTime>12/12/2016 21:08:42</publishTime>
+    </File>
     <File Include="Styles/Style.css">
-      <publishTime>12/08/2016 13:14:24</publishTime>
+      <publishTime>12/12/2016 13:22:22</publishTime>
     </File>
     <File Include="Views/Default/Index.cshtml">
-      <publishTime>12/09/2016 11:17:03</publishTime>
+      <publishTime>12/12/2016 19:15:02</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>11/25/2016 09:56:06</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/03/2016 13:18:10</publishTime>
+      <publishTime>12/12/2016 21:21:33</publishTime>
     </File>
   </ItemGroup>
 </Project>

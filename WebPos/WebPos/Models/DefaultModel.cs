@@ -49,6 +49,7 @@ namespace WebPos.Models
         public string Type { get; set; }
         public string Cash { get; set; }
         public string Value { get; set; }
+        public string Code { get; set; }
     }
 
     public class DefaultModel

@@ -4,3 +4,9 @@ D:\MVC\Aktualni verze\_Misha\wpCommon\bin\Release\wpCommon.dll
 D:\MVC\Aktualni verze\_Misha\wpCommon\bin\Release\wpCommon.pdb
 D:\MVC\Aktualni verze\_Misha\wpCommon\obj\Release\wpCommon.dll
 D:\MVC\Aktualni verze\_Misha\wpCommon\obj\Release\wpCommon.pdb
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\bin\Release\wpCommon.dll.config
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\bin\Release\wpCommon.dll
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\bin\Release\wpCommon.pdb
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\obj\Release\wpCommon.csprojResolveAssemblyReference.cache
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\obj\Release\wpCommon.dll
+D:\MVC\Aktualni verze\_Misha\WebPos_Basic\wpCommon\obj\Release\wpCommon.pdb
